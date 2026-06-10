@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardiões da Natureza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botão de acessibilidade fixo -->
+    <div id="acessibilidade">
+        <button onclick="aumentarFonte()">A+</button>
+        <button onclick="diminuirFonte()">A-</button>
+        <button onclick="altoContraste()">⚡</button>
+    </div>
 
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logotipo do projeto Guardiões da Natureza">
+            <h1>Guardiões da Natureza</h1>
+        </div>
+        <nav>
+            <button id="btn-menu">☰ Menu</button>
+            <ul id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Página inicial -->
+        <section id="inicio">
+            <h2>Bem-vindo(a) ao Guardiões da Natureza</h2>
+            <p>Aprenda sobre o desmatamento e como proteger nossas florestas!</p>
+            <img src="img/floresta.jpg" alt="Floresta preservada com árvores verdes">
+        </section>
+
+        <!-- Sobre o desmatamento -->
+        <section id="sobre">
+            <h2>Sobre o desmatamento</h2>
+            <p>O desmatamento é a remoção da vegetação natural para atividades humanas, como agricultura, pecuária e mineração.</p>
+            <img src="img/desmatamento.jpg" alt="Área de floresta desmatada com troncos cortados">
+        </section>
+
+        <!-- Consequências -->
+        <section id="consequencias">
+            <h2>Consequências do desmatamento</h2>
+            <ul>
+                <li>Perda de habitat para animais</li>
+                <li>Alterações climáticas</li>
+                <li>Poluição do ar</li>
+                <li>Erosão do solo</li>
+            </ul>
+            <img src="img/animais.jpg" alt="Animais em floresta ameaçada pelo desmatamento">
+        </section>
+
+        <!-- Soluções -->
+        <section id="solucoes">
+            <h2>Como ajudar na preservação</h2>
+            <ul>
+                <li>Plantar árvores</li>
+                <li>Reduzir o consumo de papel</li>
+                <li>Reciclar materiais</li>
+                <li>Conscientizar outras pessoas</li>
+            </ul>
+            <img src="img/plantio.jpg" alt="Pessoa plantando árvore em área de reflorestamento">
+        </section>
+
+        <!-- Quiz -->
+        <section id="quiz">
+            <h2>Quiz sobre desmatamento</h2>
+            <div id="pergunta-container"></div>
+            <div id="respostas-container"></div>
+            <div id="feedback"></div>
+            <button id="proxima-pergunta">Próxima</button>
+            <div id="resultado"></div>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+            <p>Pequenas atitudes podem gerar grandes mudanças. Economize papel, plante árvores, recicle materiais e compartilhe informações sobre a importância das florestas.</p>
+            <h3>Organizações ambientais</h3>
+            <ul>
+                <li><a href="https://www.wwf.org.br/" target="_blank">WWF Brasil</a></li>
+                <li><a href="https://www.sosma.org.br/" target="_blank">SOS Mata Atlântica</a></li>
+                <li><a href="https://institutoterra.org/" target="_blank">Instituto Terra</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto Guardiões da Natureza - Concurso Agrinho 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
